@@ -1,0 +1,122 @@
+@media screen and (max-width: 580px) {
+    .menu-items {
+        display: none;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    .header-logo>h2 {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        font-size: 1.6rem;
+    }
+
+    header {
+        border-bottom: 1px solid orange;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+    .banner-title , .title-1 , .title-2{
+        font-size: 45px;
+    }
+
+    .curriculums {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .curriculum-heading h2{
+        font-size: 45px;
+    }
+    .curriculums-btns{
+        display: none;
+    }
+    .stories-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stories-card-1 {
+        display: none;
+    }
+
+    .date-button {
+        padding: 9px 12px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        font-size: 13px;
+    }
+
+    .our-stories-section>h1 {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .stories-card-img-button>button {
+        position: absolute;
+        left: 10px;
+        bottom: -15px;
+    }
+
+    .stories-card-content {
+        padding: 30px 10px 20px 10px;
+    }
+
+    .stories-card-content>h2 {
+        font-size: 13px;
+    }
+
+    .date-button-card-3,
+    .date-button-card-4,
+    .date-button-card-5 {
+        background-color: #5D58F0;
+    }
+
+    .view-all-button {
+        text-align: center;
+    }
+
+    .view-all-button button {
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 13px 50px;
+        border: none;
+        border-radius: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    .our-stories {
+        margin-top: 30px;
+        padding: 40px 0;
+        background-image: linear-gradient(to top, #fea10177, #ffffff5a), url('../assets/bg.png');
+        background-position: center;
+        background-size: 150%;
+    }
+    .footer-section {
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    .footer-logo-secton {
+        width: 100%;
+    }
+
+    .footer-menu-section {
+        margin: 30px 0;
+    }
+}
+
